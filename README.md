@@ -31,7 +31,7 @@ G ----|productOrder\nCreate|F{{OMS}}
 
 ```mermaid
 gantt
-    title Jenkins Timeline
+    title Jenkins MVP
     dateFormat  YYYY-MM-DD
     section MVP
         jenkins sandbox build : m1, 2018-11-19, 2019-01-08
@@ -42,7 +42,7 @@ gantt
 
 ```mermaid
 gantt
-    title Jenkins Timeline
+    title Jenkins Phase II
     dateFormat  YYYY-MM-DD
     section Phase II
         portaldevauto build: p1, 2020-03-16, 2020-05-18
@@ -50,7 +50,7 @@ gantt
 ```
 ```mermaid
 gantt
-    title Jenkins Timeline
+    title Jenkins Containerisation
     dateFormat  YYYY-MM-DD
 
     section Containerisation
