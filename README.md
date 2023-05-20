@@ -1,60 +1,42 @@
-# Mermaid
+# What we know we know
 
-```mermaid
+## Where I only speak for myselves
 
-sequenceDiagram
-  controller ->>+ service: buyNow(ProductID)
-  service --> service: persistOrder
-  service ->>+ wrapper: createOrder
-  wrapper ->>+ wsclient: doMessage
-  wsclient --> wsclient: write XML request
-  wsclient --> wsclient: read XML response
-  wsclient ->>- wrapper: result
-  wrapper ->>- service: result
-  service ->>- controller: result
-```
+This is written in first person plural style, for reasons I will explain later. In the meantime, just have fun.
 
-```mermaid
-flowchart LR
-User ---
-A(browser) -->
-B[[Internet\nF5\nWebCache\nOHS]]
-C{Fulfilment} ===
-D(((Order\nProduct))) -.-
-E[(db)] 
-D ----|productOrder\nCreate|F{{OMS}} 
-C ===
-G(((Query\nProduct))) -.-
-E
-G ----|productOrder\nCreate|F{{OMS}} 
-```
+Beauty can be found anywhare. Grow it where you find it.
 
-```mermaid
-gantt
-    title Jenkins MVP
-    dateFormat  YYYY-MM-DD
-    section MVP
-        jenkins sandbox build : m1, 2018-11-19, 2019-01-08
-        jenkins sandbox evaluate:  m2, 2019-01-08, 2019-04-17
-        jenkins POV build: m3,  2019-04-17, 2019-05-27
+Take engineering services for example. Elegance can be expressed. I find the following image pleasing to look at for the following reasons:
 
-```
+- The Jenkins container to which the schedule pertains is in production as I write
+- It is laid out and rendered professionally - not due to my own efforts, but due to those of others better at layout and rendering than I
+- It's source is inline human-readable markup in a text only file.
+- Its source is maintained in a source control repository with built in change control, change control, and rendering support.
 
-```mermaid
-gantt
-    title Jenkins Phase II
-    dateFormat  YYYY-MM-DD
-    section Phase II
-        portaldevauto build: p1, 2020-03-16, 2020-05-18
-        portalprodauto build: p2, 2020-03-16, 2020-07-27
-```
+So many things to be happy about.
+
 ```mermaid
 gantt
     title Jenkins Containerisation
-    dateFormat  YYYY-MM-DD
+    dateFormat  YY-MM
 
     section Containerisation
-        automation build: c2, 2022-08-03, 2022-10-19
-        ad integration: c3, 2022-10-19, 2023-02-01
-        portaldevsecops build: c5, 2022-11-27, 2023-03-30 
+        automation: c2, 22-08, 22-10
+        ad integration: c3, 22-09, 23-02
+        prod build: c5, 22-12, 23-03 
 ```
+
+So that's what we think about most the time. Well, your milage probably varies. The what that we think about, allowing for topic, rendering, diagramming model, requirement, environment, staff, etc. Engineering brief, I suppose.
+
+The rest of the time, the I find life inevitably taking the form of engineering brief. I am sure that is so for any career.
+
+In any case, as ar as writing goes, I have produced much documentation, all technical, and have found the occupation eudaimonic only on occasion. I have tried to categorise the writing I have done, so as to 
+
+If you are familiar with the Waterfall Development Lifecycle, then you will know what 
+The majority of the documentation I 
+
+I find myself in the fortunate position of having time to reflect. And have decided to write these refelections, if for no other reason than to refelect on my reflections. As indulgent as that may sound.
+
+Backstory
+I have to confess a lie, whan I say 
+ 
